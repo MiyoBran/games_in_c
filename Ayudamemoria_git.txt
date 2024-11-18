@@ -48,3 +48,34 @@ git push -u origin main  # La opción "-u" vincula la rama local "main" con la r
 Notas importantes:
 Si ya tienes un repositorio remoto en GitHub, usa el paso 2 (git clone).
 Si estás iniciando un proyecto desde cero, comienza desde el paso 3 (git init).
+-----------------------------------------------------------------------------------------------
+
+COMANDOS PARA GIT
+
+
+# Verificar el estado del repositorio
+git status
+
+# Agregar todos los cambios al área de preparación
+git add .
+
+# Realizar el commit
+git commit -m "Aca va el mensaje del commit, sino abre nano"
+
+# Mandar tus cambios al repositorio remoto
+git push origin main
+
+---- Para ver cambios
+
+# Verificar si hay actualizaciones en el repositorio remoto
+git fetch origin
+
+# Verificar direccion del escritorio remoto
+git remote -v
+
+# Comparar tu rama local con la rama remota
+git diff origin/main
+
+# Actualizar tu proyecto local si es necesario
+git pull origin main
+

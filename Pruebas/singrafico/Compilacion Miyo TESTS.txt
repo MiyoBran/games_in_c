@@ -1,0 +1,20 @@
+-----------------------------------------------------------------------------------------------
+
+/*Para compilar PRUEBAS EJ:
+
+gcc -o blackjack main.c config.c jugador.c logica.c mazo.c record.c scoreboard.c
+
+
+-- Version  con las carpetas EJ:
+gcc -o v3scoreboard_test src/scoreboardV3_test.c src/scoreboardV3.c config.c -Iinclude -I.  -Wall -std=c11
+
+
+
+->Para borrar todos los archivos compilados
+rm -rf blackjack v3scoreboard_test
+
+-----------------------------------------------------------------------------------------------
+importante --> archivo .env  con lo siguiente:
+
+archivo_ranking=datos_ranking.dat
+archivo_historial=datos_historial.dat
