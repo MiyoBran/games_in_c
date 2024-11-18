@@ -124,7 +124,7 @@ int main() {
         
         }//Fin Menu Principal
     } // Fin While Externo
-    // Actualizacion del Ranking si corresponde
+    // Actualizacion del Ranking
     rankingImport(scoreList, nombreArchivoRanking);
 
 
